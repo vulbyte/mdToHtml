@@ -9,6 +9,7 @@ and will easily return html elements.
 
 ### example:
 
+```
 input:
 example.md
 |
@@ -58,9 +59,11 @@ example.md
 | <br/>
 |
 | [image](image.png)
+```
 
 output:
 
+```
 <div class="convertedMd">
     <h1> title </h1>
     <p> text </p>
@@ -94,3 +97,4 @@ output:
     <br/>
     <img src="image.png" alt=image />
 </div>
+```
